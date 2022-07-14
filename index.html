@@ -22,15 +22,20 @@
       </div>
     </div>
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Cocoa Clone</h1>
+      <h1 class="welcome-header__title">Welcome to CocoaTalk</h1>
       <p class="welcome-header__text">
         If you have a Cocoa Account, log in with your email or phone number
       </p>
     </header>
 
-    <form id="login-form" action="">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+    <form id="login-form" action="friends.html" method="GET">
+      <input
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+        required
+      />
+      <input type="password" placeholder="Password" required />
       <input type="submit" value="Log In" />
       <input type="submit" value="Sign Up" />
       <a href="#">Find Cocoa Account or Password</a>
